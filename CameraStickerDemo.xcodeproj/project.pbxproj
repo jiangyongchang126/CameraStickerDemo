@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74CC3AF33BD99340BFC900D4 /* libPods-CameraStickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B676D6CCB7476CD72245D4AE /* libPods-CameraStickerDemo.a */; };
+		8712D6AD1DF3EFF8007DD425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6AC1DF3EFF8007DD425 /* main.m */; };
+		8712D6B01DF3EFF8007DD425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6AF1DF3EFF8007DD425 /* AppDelegate.m */; };
+		8712D6B31DF3EFF8007DD425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6B21DF3EFF8007DD425 /* ViewController.m */; };
+		8712D6B61DF3EFF8007DD425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8712D6B41DF3EFF8007DD425 /* Main.storyboard */; };
+		8712D6B81DF3EFF8007DD425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8712D6B71DF3EFF8007DD425 /* Assets.xcassets */; };
+		8712D6BB1DF3EFF8007DD425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8712D6B91DF3EFF8007DD425 /* LaunchScreen.storyboard */; };
+		8712D6C71DF3F130007DD425 /* SKStickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6C41DF3F130007DD425 /* SKStickerItem.m */; };
+		8712D6C81DF3F130007DD425 /* SKSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6C61DF3F130007DD425 /* SKSticker.m */; };
+		8712D6CB1DF3F159007DD425 /* SKStickerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6CA1DF3F159007DD425 /* SKStickerFilter.m */; };
+		8712D6CD1DF3F197007DD425 /* SKStickerResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8712D6CC1DF3F197007DD425 /* SKStickerResources.bundle */; };
+		8712D6CF1DF3FD47007DD425 /* fake_points.json in Resources */ = {isa = PBXBuildFile; fileRef = 8712D6CE1DF3FD47007DD425 /* fake_points.json */; };
+		8712D6D71DF54032007DD425 /* SKStickerItem+OpenGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6D61DF54032007DD425 /* SKStickerItem+OpenGL.m */; };
+		8712D6DA1DF543A6007DD425 /* SKSticker+OpenGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8712D6D91DF543A6007DD425 /* SKSticker+OpenGL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EDC3AD5E1A167882937BC05 /* Pods-CameraStickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraStickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraStickerDemo/Pods-CameraStickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8712D6A81DF3EFF8007DD425 /* CameraStickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraStickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8712D6AC1DF3EFF8007DD425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8712D6AE1DF3EFF8007DD425 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8712D6AF1DF3EFF8007DD425 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8712D6B11DF3EFF8007DD425 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8712D6B21DF3EFF8007DD425 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8712D6B51DF3EFF8007DD425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8712D6B71DF3EFF8007DD425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8712D6BA1DF3EFF8007DD425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8712D6BC1DF3EFF8007DD425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8712D6C31DF3F130007DD425 /* SKStickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKStickerItem.h; sourceTree = "<group>"; };
+		8712D6C41DF3F130007DD425 /* SKStickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKStickerItem.m; sourceTree = "<group>"; };
+		8712D6C51DF3F130007DD425 /* SKSticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSticker.h; sourceTree = "<group>"; };
+		8712D6C61DF3F130007DD425 /* SKSticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSticker.m; sourceTree = "<group>"; };
+		8712D6C91DF3F159007DD425 /* SKStickerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKStickerFilter.h; sourceTree = "<group>"; };
+		8712D6CA1DF3F159007DD425 /* SKStickerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKStickerFilter.m; sourceTree = "<group>"; };
+		8712D6CC1DF3F197007DD425 /* SKStickerResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKStickerResources.bundle; sourceTree = "<group>"; };
+		8712D6CE1DF3FD47007DD425 /* fake_points.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fake_points.json; sourceTree = "<group>"; };
+		8712D6D51DF54032007DD425 /* SKStickerItem+OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKStickerItem+OpenGL.h"; sourceTree = "<group>"; };
+		8712D6D61DF54032007DD425 /* SKStickerItem+OpenGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKStickerItem+OpenGL.m"; sourceTree = "<group>"; };
+		8712D6D81DF543A6007DD425 /* SKSticker+OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKSticker+OpenGL.h"; sourceTree = "<group>"; };
+		8712D6D91DF543A6007DD425 /* SKSticker+OpenGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKSticker+OpenGL.m"; sourceTree = "<group>"; };
+		B676D6CCB7476CD72245D4AE /* libPods-CameraStickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CameraStickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF220E13C4C9144B95A8E2A /* Pods-CameraStickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraStickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraStickerDemo/Pods-CameraStickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8712D6A51DF3EFF8007DD425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC3AF33BD99340BFC900D4 /* libPods-CameraStickerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F30803C61509F049971876A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B676D6CCB7476CD72245D4AE /* libPods-CameraStickerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57CA0DC7B4C1B0EE09206A7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAF220E13C4C9144B95A8E2A /* Pods-CameraStickerDemo.debug.xcconfig */,
+				7EDC3AD5E1A167882937BC05 /* Pods-CameraStickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8712D69F1DF3EFF8007DD425 = {
+			isa = PBXGroup;
+			children = (
+				8712D6AA1DF3EFF8007DD425 /* CameraStickerDemo */,
+				8712D6A91DF3EFF8007DD425 /* Products */,
+				57CA0DC7B4C1B0EE09206A7E /* Pods */,
+				3F30803C61509F049971876A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8712D6A91DF3EFF8007DD425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8712D6A81DF3EFF8007DD425 /* CameraStickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8712D6AA1DF3EFF8007DD425 /* CameraStickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8712D6C21DF3F130007DD425 /* Sticker */,
+				8712D6AE1DF3EFF8007DD425 /* AppDelegate.h */,
+				8712D6AF1DF3EFF8007DD425 /* AppDelegate.m */,
+				8712D6B11DF3EFF8007DD425 /* ViewController.h */,
+				8712D6B21DF3EFF8007DD425 /* ViewController.m */,
+				8712D6B41DF3EFF8007DD425 /* Main.storyboard */,
+				8712D6B71DF3EFF8007DD425 /* Assets.xcassets */,
+				8712D6B91DF3EFF8007DD425 /* LaunchScreen.storyboard */,
+				8712D6BC1DF3EFF8007DD425 /* Info.plist */,
+				8712D6CE1DF3FD47007DD425 /* fake_points.json */,
+				8712D6AB1DF3EFF8007DD425 /* Supporting Files */,
+			);
+			path = CameraStickerDemo;
+			sourceTree = "<group>";
+		};
+		8712D6AB1DF3EFF8007DD425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8712D6AC1DF3EFF8007DD425 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8712D6C21DF3F130007DD425 /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				8712D6CC1DF3F197007DD425 /* SKStickerResources.bundle */,
+				8712D6C31DF3F130007DD425 /* SKStickerItem.h */,
+				8712D6C41DF3F130007DD425 /* SKStickerItem.m */,
+				8712D6C51DF3F130007DD425 /* SKSticker.h */,
+				8712D6C61DF3F130007DD425 /* SKSticker.m */,
+				8712D6D51DF54032007DD425 /* SKStickerItem+OpenGL.h */,
+				8712D6D61DF54032007DD425 /* SKStickerItem+OpenGL.m */,
+				8712D6D81DF543A6007DD425 /* SKSticker+OpenGL.h */,
+				8712D6D91DF543A6007DD425 /* SKSticker+OpenGL.m */,
+				8712D6C91DF3F159007DD425 /* SKStickerFilter.h */,
+				8712D6CA1DF3F159007DD425 /* SKStickerFilter.m */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8712D6A71DF3EFF8007DD425 /* CameraStickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8712D6BF1DF3EFF8007DD425 /* Build configuration list for PBXNativeTarget "CameraStickerDemo" */;
+			buildPhases = (
+				76E3672F1F623D1284C2FD9A /* [CP] Check Pods Manifest.lock */,
+				8712D6A41DF3EFF8007DD425 /* Sources */,
+				8712D6A51DF3EFF8007DD425 /* Frameworks */,
+				8712D6A61DF3EFF8007DD425 /* Resources */,
+				A20DACE23C6C14198EA73FDB /* [CP] Embed Pods Frameworks */,
+				899A527024C59A5A8B6D120B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraStickerDemo;
+			productName = CameraStickerDemo;
+			productReference = 8712D6A81DF3EFF8007DD425 /* CameraStickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8712D6A01DF3EFF8007DD425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Asura;
+				TargetAttributes = {
+					8712D6A71DF3EFF8007DD425 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9F8QE256M9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8712D6A31DF3EFF8007DD425 /* Build configuration list for PBXProject "CameraStickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8712D69F1DF3EFF8007DD425;
+			productRefGroup = 8712D6A91DF3EFF8007DD425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8712D6A71DF3EFF8007DD425 /* CameraStickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8712D6A61DF3EFF8007DD425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8712D6CF1DF3FD47007DD425 /* fake_points.json in Resources */,
+				8712D6BB1DF3EFF8007DD425 /* LaunchScreen.storyboard in Resources */,
+				8712D6B81DF3EFF8007DD425 /* Assets.xcassets in Resources */,
+				8712D6B61DF3EFF8007DD425 /* Main.storyboard in Resources */,
+				8712D6CD1DF3F197007DD425 /* SKStickerResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76E3672F1F623D1284C2FD9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		899A527024C59A5A8B6D120B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraStickerDemo/Pods-CameraStickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20DACE23C6C14198EA73FDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraStickerDemo/Pods-CameraStickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8712D6A41DF3EFF8007DD425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8712D6DA1DF543A6007DD425 /* SKSticker+OpenGL.m in Sources */,
+				8712D6B31DF3EFF8007DD425 /* ViewController.m in Sources */,
+				8712D6C71DF3F130007DD425 /* SKStickerItem.m in Sources */,
+				8712D6C81DF3F130007DD425 /* SKSticker.m in Sources */,
+				8712D6CB1DF3F159007DD425 /* SKStickerFilter.m in Sources */,
+				8712D6B01DF3EFF8007DD425 /* AppDelegate.m in Sources */,
+				8712D6AD1DF3EFF8007DD425 /* main.m in Sources */,
+				8712D6D71DF54032007DD425 /* SKStickerItem+OpenGL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8712D6B41DF3EFF8007DD425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8712D6B51DF3EFF8007DD425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8712D6B91DF3EFF8007DD425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8712D6BA1DF3EFF8007DD425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8712D6BD1DF3EFF8007DD425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8712D6BE1DF3EFF8007DD425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8712D6C01DF3EFF8007DD425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF220E13C4C9144B95A8E2A /* Pods-CameraStickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F8QE256M9;
+				INFOPLIST_FILE = CameraStickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = design.asura.CameraStickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8712D6C11DF3EFF8007DD425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDC3AD5E1A167882937BC05 /* Pods-CameraStickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F8QE256M9;
+				INFOPLIST_FILE = CameraStickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = design.asura.CameraStickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8712D6A31DF3EFF8007DD425 /* Build configuration list for PBXProject "CameraStickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8712D6BD1DF3EFF8007DD425 /* Debug */,
+				8712D6BE1DF3EFF8007DD425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8712D6BF1DF3EFF8007DD425 /* Build configuration list for PBXNativeTarget "CameraStickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8712D6C01DF3EFF8007DD425 /* Debug */,
+				8712D6C11DF3EFF8007DD425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8712D6A01DF3EFF8007DD425 /* Project object */;
+}
